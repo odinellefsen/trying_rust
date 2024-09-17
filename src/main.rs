@@ -10,6 +10,9 @@ fn main() {
         Person {
             name: "Baldur".to_string(),
         },
+        Person {
+            name: "Thor".to_string(),
+        }
     ];
 
     let names: Vec<String> = people.iter().map(|p| p.name.clone()).collect();
